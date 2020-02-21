@@ -5,7 +5,7 @@ lu_name_ CONSTANT VARCHAR2(25) := 'AmrEventNotification';
 
 PROCEDURE Reprint_Send_Report (
   param_attr_ IN VARCHAR2);
-  -- here is a comment
+  -- here is a comment, and another
 FUNCTION Check_Result_Key_Sent (
   result_key_     IN NUMBER) RETURN VARCHAR2; 
   
